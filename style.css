@@ -1,0 +1,275 @@
+/* only the background box */
+
+.headerbox {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 12px;
+}
+
+.logo a{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+/* only the "beyond the box forum" part */
+
+.returntohome a{
+  float: left;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 50px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+/* just the links to different pages */
+
+.headerlinks a{
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Roboto Mono', monospace;
+
+}
+/* hovers over only the links to the different pages */
+.headerlinks a:hover {
+  background-color: #D3E8CE;
+  color: black;
+}
+
+/* color of links without hover on it */
+
+.headerlinks a.active {
+  background-color: #D3E8CE;
+  color: black;
+}
+
+.homepagefiller{
+  overflow: hidden;
+  background-color: #D3E8C;
+  padding: 100px 100px;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* formats icons and text for contact form */
+
+.body{
+ min-height: 25vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ 
+.contactpage{
+ width: 100%;
+ max-width: 1400px;
+ padding: 50px;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+ 
+.contactpage h2{
+ width: 100%;
+ margin-bottom: 80px;
+ color: black;
+ font-size: 60px;
+ font-family: 'Fjalla One', sans-serif;
+}
+ 
+.contactinfo, .contactform{
+ flex: 1;
+}
+ 
+.item{
+ margin-bottom: 24px;
+ font-size: 16px;
+ color: #322;
+}
+ 
+.icon{
+ width: 60px;
+ height: 60px;
+ line-height: 60px;
+ background-color: #014421;
+ text-align: center;
+ color: white;
+ border-radius: 50%;
+ margin-right: 16px;
+}
+
+.item{
+font-family: 'IBM Plex Mono', monospace;
+}
+
+ /* footer formatting */
+
+.footerbox{
+  overflow: hidden;
+  background-color: black;
+  padding: 10px 100px 10px 100px;
+  text-align: center;
+}
+
+/* about beyond the box header on about tab */
+
+.about{
+  overflow: hidden;
+  background-color: #D3E8CE;
+  padding: 50px 50px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* our story header on about tab */
+
+.ourstory{
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* mission statement paragraph */
+
+.missionstatement {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 100px 80px 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* green box  */
+
+.team {
+  overflow: hidden;
+  text-align: center;
+  background-color:#D3E8CE;
+  padding: 60px 60px;
+}
+
+/* admin word */
+
+.team h1{
+  margin-bottom: 1px;
+  color: black;
+  font-size: 60px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.team h4{
+  margin-bottom: 60px;
+  color: black;
+  font-size: 17px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* picture formatting */
+
+.people{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.people a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px:
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50;  
+}
+
+.section{
+  width: 600px;
+  margin: auto;
+  padding: 20px 10px 1px 10px;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.section:target{
+  height: auto;
+}
+
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.aboutscroll{
+font-family: 'IBM Plex Mono', monospace;
+font-size: 20px
+
+}
+
+.siterules{
+  overflow: hidden;
+  background-color: #D3E8CE;
+  padding: 50px 100px 50px 100px;
+}
+
+.outerbox h1{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px 50px 50px 50px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.siterulesscroll{
+font-family: 'IBM Plex Mono', monospace;
+font-size: 20px
+}
+
+.blogpagebackground {
+  overflow: hidden;
+  background-color: #D3E8CE;
+  padding: 20px 12px;
+}
+
+.blogpostheader{
+  overflow: hidden;
+  background-color: #014421;
+  padding: 20px 12px; 
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.card {
+font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+
+/* order of padding: top right bottom left */
